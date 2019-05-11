@@ -1,0 +1,627 @@
+* {
+
+box-sizing: border-box;
+}
+
+body {
+
+	padding-top: 70px;
+	font-family: 'Indie Flower', cursive;
+font-family: 'Abel', sans-serif;
+	
+}
+
+/*start navbar*/
+
+.navbar{
+
+   min-height: 70px;
+  
+}
+.navbar-inverse .navbar-nav > li > a {
+    color:#BBB;
+    padding-top:25px;
+    padding-bottom:25px;
+    font-size:16px
+
+} 
+.navbar-inverse .navbar-nav > .active > a 
+
+ {
+   background-color: red;
+
+}
+.navbar-inverse .navbar-nav  a {
+
+	font-size: 18px;
+
+}
+.navbar .navbar-brand {
+
+	font-size: 30px;
+	color: #bbb;
+	padding-top: 20px;
+	margin-top : 5px;
+}
+.navbar .navbar-header a::first-letter{
+
+	font-size: 50px;
+	color: blue;
+}
+.navbar .navbar-nav .dropdown .dropdown-menu {
+
+	background-color: #ececec;
+	width: 200px;
+}
+.navbar .navbar-nav .dropdown .dropdown-menu li a {
+
+	color: grey;
+}
+.navbar .navbar-nav .dropdown .dropdown-menu .divider {
+
+	color: #000;
+	border: 1px solid #777;
+}
+/*End navbar*/
+
+/* Start Carousel*/  
+.carousel .carousel-indicators  li {
+
+   	width: 20px;
+   	height: 20px;
+}
+
+.carousel .carousel-indicators .active {
+
+   	background-color: blue;
+}
+
+.carousel .carousel-inner .item .carousel-caption {	
+	margin-bottom: 50px;
+	background-color: rgba(3,3,3,0.4);
+	border-radius: 30px;
+	padding: 20px;
+}
+
+.carousel .carousel-inner .item .carousel-caption p {
+
+	font-size: 20px;
+	padding: 20px;
+}
+/* End Carousel*/
+
+/*Start section about*/
+
+.about {
+    
+      padding-top: 50px;
+      padding-bottom: 50px;
+}
+
+.about h1 span {
+
+	color: #E41B17;
+}
+.about h1 {
+
+  padding-bottom: 10px;
+  font-weight:  bold;
+}
+.about .lead {
+
+	color: #888;
+}
+
+/*End section about*/
+
+/*Start section features*/
+  
+.features {
+
+  	background-color: #EEE;
+  	padding-top: 50px;
+  	padding-bottom: 50px;
+}
+
+.features .h1 {
+
+  	font-weight: bold;
+  	padding-bottom: 30px;
+}
+
+.features .feat .glyphicon {
+
+    font-size: 22px;
+    font-weight: bold;
+    color: #555;
+    padding-bottom: 20px;
+
+}
+  
+.features .feat h4 {
+
+	font-size: 22px;
+}
+
+.features .feat p {
+
+	padding-bottom: 30px;
+	line-height: 2em;
+
+}
+/*Start section features*/
+
+/*Start Testemonial*/
+
+.testemonial {
+
+ 	padding-top: 50px;
+ 	padding-bottom: 50px;
+ }
+
+.testemonial h1 {
+
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+
+.testemonial p {
+
+	padding-bottom: 10px;
+	line-height: 2em;
+}
+
+.testemonial .carousel-inner {
+
+	min-height: 160px;
+}
+
+.testemonial .carousel-indicators{
+
+	position: static;
+	margin-left: auto;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.testemonial .carousel-indicators li {
+
+	border: 2px solid red;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+    margin-left: 10px;
+    text-indent: 0;
+    overflow: hidden;
+    background: none;
+}
+
+.testemonial .carousel-indicators li img {
+
+	max-width: 100%;
+	overflow: hidden;
+	opacity: 0.6;
+}
+
+.testemonial .carousel-indicators li.active img{
+
+  background: none;
+  opacity: 1;
+}
+
+.testemonial .carousel-inner .item span {
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+/*End Testemonial*/
+
+
+/*Start price table*/
+
+.price_table {
+
+  	background-color: #EEE;
+  	padding-top: 50px;
+  	padding-bottom: 50px;
+}
+
+.price_table h1 {
+
+      padding-bottom: 40px;
+}
+
+.price_table .price_box {
+
+  	 background-color: #fff;
+  	 padding: 10px;
+  	 border: 1px solid #ddd;
+  	 margin-bottom: 10px;
+}
+.price_table .price_box h2 {
+
+  	font-size: 30px;
+  	font-weight: bold;
+
+}
+.price_table .price_box:hover p {
+
+    transform: scale(1.1,1.1) rotate(360deg);
+  	border: 1px solid red;
+}
+
+.price_table .price_box  p {
+
+  	font-size: 30px;
+  	border-radius: 100%;
+  	border: 1px solid #ddd;
+  	background-color: #f3f3f3;
+  	width: 100px;
+  	height: 100px;
+  	line-height: 100px;
+  	font-weight: bold;
+  	transition-duration: 2s;
+}
+
+.price_table .price_box ul li {
+
+  	line-height: 2.5;
+  	font-size: 16px;
+}
+
+.price_table .price_box .btn {
+
+  	padding: 10px;
+  	margin-bottom: 10px;
+}
+
+/*End price Table*/
+
+/*start our team section*/
+.our-team {
+
+  	background: url("../photo/15.gif" ) no-repeat center center fixed ;
+  	background-size: cover;
+  	width: 100%;
+  	min-height: 600px;
+  	color: #fff;
+
+  }
+
+.our-team .team {
+
+	background-color: rgba(2,2,2,0.8) ;
+	min-height: 600px;
+
+}
+
+.our-team .team h1 {
+
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.our-team .team p {
+
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.our-team .team i {
+	margin-bottom: 50px;
+}
+/*End our team section*/
+
+/*Start subscribe section*/
+.subscribe {
+
+    background-color: #eee;
+    padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.subscribe h1 {
+  	margin-bottom: 30px;
+  	color: #555;
+}
+
+.subscribe p {
+  	color: #666;
+  	margin-bottom: 30px;
+}
+
+.subscribe .form-inline input {
+  	border-radius: 0;
+}
+
+.subscribe .form-inline .btn {
+  	border-radius: 0;
+  	margin-left: -5px;
+}
+
+.subscribe .form-inline .btn i {
+  	margin-left: 2px;
+  	margin-right: 8px;
+}
+
+/*End subscribe section*/
+
+/*Start Statistics*/
+
+.statistic {
+
+	background: url("../photo/stats.jpg") no-repeat center center fixed ;
+	background-size: cover;
+    min-height: 300px;
+}  
+
+.statistic .data {
+
+	background-color: rgba(2,2,2,0.8);
+	color: #B6B5B5;
+	min-height: 300px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.statistic .data .state {
+
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.statistic .data .state:hover {
+
+	color: #fff;
+}
+
+.statistic .data .state p {
+
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 0;
+
+}
+
+.statistic .data .state span {
+
+	font-size: 18px;
+
+}
+
+/*End Statistics*/
+
+/*Start our Team skills*/
+
+.our_skills {
+
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+} 
+
+.our_skills h1 {
+
+ 	font-size: 40px;
+ 	color: #555;
+ 	margin-bottom: 50px;
+ 	font-weight: bold;
+ }
+
+.our_skills .progress {
+
+	height: 30px;
+	margin-top: 30px;
+	
+}
+
+.our_skills .progress .progress-bar {
+
+	line-height: 1.7;
+	font-size: 18px;
+	text-align: left;
+	text-indent: 20px;
+
+}
+
+.our_skills .skills-info h3 {
+
+	font-size: 30px;
+	color: #666;
+
+}
+
+.our_skills .skills-info p {
+
+	line-height: 1.4;
+	margin-bottom: 20px;
+	color: #888;
+}
+
+.our_skills .skills-info .btn {
+
+	padding: 10px;
+	font-size: 18px;
+}
+/*End Our Team Skills*/
+
+/*Start contact us*/
+ 
+.contact-us {
+
+	background: url("../photo/contact-us.jpg") no-repeat center center fixed;
+	min-height: 300px;
+	
+}
+
+.contact-us .contact {
+
+	background-color: rgba(9,9,9,0.7) ;
+	color: #B6B5B5;
+	min-height: 300px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.contact-us .contact:hover  {
+
+	color: #fff;
+}
+
+.contact-us .contact p {
+
+	margin-bottom: 40px;
+}
+
+.contact-us .contact .form {
+
+	margin-bottom: 30px;
+}
+
+.contact-us  textarea  {
+
+	height: 107px;
+	background-color: rgba(82,78,78,0.7) ;
+	border: none;
+	color: #fff;
+}
+
+.contact-us input  {
+
+	background-color: rgba(82,78,78,0.8) ;
+	border: none;
+	color: #fff;
+}
+/*End contact us*/
+
+/*start section our client*/
+
+ .our_client {
+
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	background-color: #eee;
+ }
+
+ .our_client li img {
+
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ 	opacity: 0.4;
+ 	transition: all 0.4s ease-in-out;
+
+ }
+
+ .our_client li:hover img {
+
+ 	opacity: 1;
+
+ }
+
+
+/*End section our client*/
+
+/*Start Footer*/
+
+.footer {
+
+	background-color: #333;
+	padding-top: 20px;
+	color: #AAA; 
+	font-size: 18px;
+
+
+
+}
+
+.footer:hover a {
+
+	color: #fff;
+}
+
+.footer h3 {
+
+	color: #0895D1;
+	line-height: 1.3;
+	margin: 30px 0 20px 0 ;
+	font-weight: bold;
+
+}
+
+.footer .map {
+
+	overflow: hidden;
+}
+
+.footer .map li {
+
+	width: 33.3333%;
+	float: left;
+	font-size: 18px;
+
+}
+
+.footer .photo li {
+
+	float: left;
+	width: 15%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+}
+
+.footer .photo li  img {
+
+	opacity: 0.5;
+	transition: all 0.5s ease-in-out;
+
+
+}
+
+.footer .photo li:hover  img {
+
+	opacity: 1;
+}
+
+.footer .img-thumbnail {
+
+	background-color: rgba(0,0,0,0.4);
+	border: 1px solid #666;
+	margin-bottom: 5px;
+}
+
+.footer .copyright {
+
+	background-color: #555;
+	color: #aaa;
+	padding: 5px;
+	margin-top: 30px;
+}
+
+.footer .copyright span {
+
+	color: #0895D1;
+}
+
+.footer .media-body h4 {
+
+	font-weight: bold;
+}
+
+/*End Footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
